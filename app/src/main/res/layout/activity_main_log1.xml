@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_my"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/menu_4_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="22.55dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/menu"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="313dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/dnfbitbitttf"
+            android:text="응급상세정보"
+            android:textColor="#354F4E"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            />
+        <RelativeLayout
+            android:id="@+id/settings_6_"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22.55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:clipToOutline="true"
+            android:background="@drawable/settings"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mobile_1_0_"
+            android:layout_width="360dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            />
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ghost_tab_1"
+            android:layout_width="154.5dp"
+            android:layout_height="32dp"
+            android:clipToOutline="true"
+            android:background="@drawable/_tab_item4"
+            android:elevation="3dp"
+            android:layout_marginTop="20dp"
+            />
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ghost_tab_2"
+            android:layout_width="154.5dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="154.5dp"
+            android:clipToOutline="true"
+            android:background="@drawable/_tab_item3"
+            android:layout_marginTop="20dp"
+            />
+    </FrameLayout>
+    <TableLayout
+        android:id="@+id/table_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3"
+        android:background="@drawable/table_bolder"
+
+        >
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="날짜"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="시간"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="위치"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text="감지 여부"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Table Header -->
+        <TableRow
+            android:background="@drawable/table_bolder">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="2023-09-20"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="15:36"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="침실"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text="낙상"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="2023-09-20"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="16:10"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text="침실"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text="낙상 취소"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_bolder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:backgroundTint="@color/white"
+                android:text=""
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/dnfbitbitttf"
+                android:text=""
+                android:gravity="center" />
+        </TableRow>
+
+
+
+
+
+
+
+        <!-- Table Rows -->
+
+        <!-- 이하 동일한 방식으로 추가 행을 생성합니다. -->
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

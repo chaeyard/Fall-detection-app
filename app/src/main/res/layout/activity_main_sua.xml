@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_con"
+    android:layout_width="358dp"
+    android:layout_height="621dp"
+    android:background="@drawable/alert_sua"
+    android:layout_gravity="top|center"
+    >
+
+    <TextView
+        android:id="@+id/TvWarning"
+        android:layout_width="296dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="270dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:textSize="23dp"
+        android:text="낙상이 감지되었습니다.\n취소 버튼을 누르지 않을 경우\n1분 후 119에 자동으로 신고됩니다."
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/call_bt"
+        android:layout_width="257dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:background="@drawable/rectangle_3_sua"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:text="119에 신고하기"
+        android:textAlignment="center"
+        android:paddingTop="18dp"
+        />
+
+    <TextView
+        android:id="@+id/bt_cancel"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:background="@drawable/cancel"
+        android:text="취소하기"
+        android:textSize="23sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="18dp"
+         />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+            <TableRow
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/view0"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view0"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/dnfbitbitttf"
+                    android:gravity="center"
+                    android:layout_column="0"/>
+                <TextView
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view1"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="1"/>
+                <TextView
+                    android:id="@+id/view2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view2"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="2"/>
+                <TextView
+                    android:id="@+id/view3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view3"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="3"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view4"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="0"/>
+                <TextView
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view5"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="1"/>
+                <TextView
+                    android:id="@+id/view6"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view6"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="2"/>
+                <TextView
+                    android:id="@+id/view7"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view7"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="3"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/view8"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view8"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="0"/>
+                <TextView
+                    android:id="@+id/view9"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view9"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="1"/>
+                <TextView
+                    android:id="@+id/view10"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view10"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="2"/>
+                <TextView
+                    android:id="@+id/view11"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view11"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="3"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/view12"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view12"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="0"/>
+                <TextView
+                    android:id="@+id/view13"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view13"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="1"/>
+                <TextView
+                    android:id="@+id/view14"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view14"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="2"/>
+                <TextView
+                    android:id="@+id/view15"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:text="view15"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_column="3"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

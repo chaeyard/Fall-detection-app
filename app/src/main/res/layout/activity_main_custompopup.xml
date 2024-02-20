@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_con"
+    android:layout_width="358dp"
+    android:layout_height="621dp"
+    android:background="@drawable/alert_sua"
+    android:layout_gravity="top|center"
+    >
+
+    <TextView
+        android:id="@+id/TvWarning"
+        android:layout_width="296dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="270dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:textSize="23dp"
+        android:text="낙상이 감지되었습니다.\n취소 버튼을 누르지 않을 경우\n1분 후 119에 자동으로 신고됩니다."
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/call_bt"
+        android:layout_width="257dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:background="@drawable/rectangle_3_sua"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:text="119에 신고하기"
+        android:textAlignment="center"
+        android:paddingTop="18dp"
+        />
+
+    <TextView
+        android:id="@+id/bt_cancel"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/dnfbitbitttf"
+        android:background="@drawable/cancel"
+        android:text="취소하기"
+        android:textSize="23sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="18dp"
+        />
+
+</FrameLayout>
