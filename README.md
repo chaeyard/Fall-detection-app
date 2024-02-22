@@ -1,7 +1,7 @@
 ## 노인을 위한 낙상감지 서비스 앱
 ## 프로젝트 소개
 ## 1. 개발환경
-* 개발언어 : Kotlin, Java
+* 개발언어 : Kotlin, Java, SQLite
 * 개발도구 : Android Studio
 * 디자인 : Figma
 ## 2. 앱 기능
